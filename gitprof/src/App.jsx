@@ -44,7 +44,7 @@ export default function App() {
           </div>
         </div>
 
-        <div className="w-11 h-11 rounded-xl bg-[#d7f0ef]"></div>
+
       </nav>
 
       <div className="max-w-7xl mx-auto">
@@ -79,7 +79,7 @@ export default function App() {
             </button>
           </div>
         </div>
-
+        {/*while loading data */}
         {loading && (
           <div className="bg-white border border-gray-200 rounded-2xl p-8 text-center shadow-sm">
             <p className="text-xl text-gray-500">
